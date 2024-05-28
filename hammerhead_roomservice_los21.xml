@@ -26,8 +26,8 @@
   <project path="kernel/lge/hammerhead" name="z3DD3r/android_kernel_lge_hammerhead" remote="z3DD3r" />
   <project path="vendor/lge" name="z3DD3r/android_vendor_lge" remote="z3DD3r" />
   <project path="vendor/partner_gms" name="lineageos4microg/android_vendor_partner_gms" remote="github" revision="master" />
-  <project path="ih8sn" name="althafvly/ih8sn" remote="github" revision="master" />
-  <project path="vendor/extra" name="hammerhead-los20/android_vendor_extra" remote="github" revision="main" />
+  <project path="ih8sn" name="hammerhead-los21/ih8sn" remote="github" revision="master" />
+  <project path="vendor/extra" name="hammerhead-los21/android_vendor_extra" remote="github" revision="main" />
 
 </manifest>
 
