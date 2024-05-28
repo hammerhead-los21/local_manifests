@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest> 
 
-<remote  name="z3DD3r"
+<remote  name="hammerhead-los21"
            fetch="https://github.com"
            revision="lineage-21.0" />
 
   <remove-project name="LineageOS/android_hardware_sony_timekeep" />
 
   <remove-project name="LineageOS-UL/android_frameworks_av" />
-  <project path="frameworks/av" name="z3DD3r/android_frameworks_av" remote="z3DD3r" />
+  <project path="frameworks/av" name="hammerhead-los21/android_frameworks_av" remote="hammerhead-los21" />
 
   <remove-project name="LineageOS-UL/android_frameworks_base" />
-  <project path="frameworks/base" name="z3DD3r/android_frameworks_base" remote="z3DD3r" />
+  <project path="frameworks/base" name="hammerhead-los21/android_frameworks_base" remote="hammerhead-los21" />
 
   <remove-project name="LineageOS-UL/android_frameworks_ex" />
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -22,9 +22,9 @@
   <remove-project name="LineageOS-UL/android_prebuilts_sdk" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,sysui-studio" clone-depth="1" remote="aosp" />
 
-  <project path="device/lge/hammerhead" name="z3DD3r/android_device_lge_hammerhead" remote="z3DD3r" />
-  <project path="kernel/lge/hammerhead" name="z3DD3r/android_kernel_lge_hammerhead" remote="z3DD3r" />
-  <project path="vendor/lge" name="z3DD3r/android_vendor_lge" remote="z3DD3r" />
+  <project path="device/lge/hammerhead" name="hammerhead-los21/android_device_lge_hammerhead" remote="hammerhead-los21" />
+  <project path="kernel/lge/hammerhead" name="hammerhead-los21/android_kernel_lge_hammerhead" remote="hammerhead-los21" />
+  <project path="vendor/lge" name="hammerhead-los21/android_vendor_lge" remote="hammerhead-los21" />
   <project path="vendor/partner_gms" name="lineageos4microg/android_vendor_partner_gms" remote="github" revision="master" />
   <project path="ih8sn" name="hammerhead-los21/ih8sn" remote="github" revision="master" />
   <project path="vendor/extra" name="hammerhead-los21/android_vendor_extra" remote="github" revision="main" />
